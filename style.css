@@ -1,0 +1,101 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     margin: 0;
+     background-image: url('https://images.unsplash.com/photo-1454789476662-53eb23ba5907?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2VhdGhlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60');
+     background-size: cover;
+}
+.weather{
+     background-image: url('https://images.unsplash.com/photo-1584267385494-9fdd9a71ad75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8d2VhdGhlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60');
+     padding: 2rem;
+     border-radius: 30px;
+     width: 100%;
+     max-width: 920px;
+     margin: 1rem;
+}
+.weather_info{
+     text-align: center;
+     color: whitesmoke;
+}
+.weather_search{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.weather_search button{
+     border: none;
+     padding: 0.5rem;
+     border-radius: 20px;
+     margin: 0.5rem;
+     font-weight: 400;
+     transition: 0.2s ease-in-out;
+     cursor: pointer;
+}
+.weather_search input{
+     outline: none;
+     border: none;
+     padding: 0.5rem 1rem;
+     text-transform: uppercase;
+     border-radius: 30px;
+     width: 100%;
+     max-width: 500px;
+}
+#add{
+     outline: none;
+}
+.weather_temp{
+     font-size: 60px;
+     margin-top: 5px;
+     font-weight: 600;
+}
+.weather_day{
+     font-size: 22px;
+}
+.weather_city{
+     font-size: 40px;
+     margin: 5px 0;
+}
+.weather_text{
+     font-size: 25px;
+}
+.weather_current{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+.weather_wind,
+.weather_humidity{
+     margin-top: 10px;
+     font-size: 22px;
+     font-weight: 600;
+}
+.weather_sunset,
+.weather_sunrise{
+     margin-top: 10px;
+     font-size: 22px;
+     font-weight: 600;
+}
+.weather_days{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.weather_days1,
+.weather_days2,
+.weather_days3{
+     width: 280px;
+     height: 100px;
+     background-color: lightyellow;
+     margin: .5rem 1rem;
+     border-radius: 20px;
+     margin-top: 20px;
+     font-weight: 600;
+     color: rgb(100, 91, 91);
+}
